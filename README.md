@@ -1,4 +1,4 @@
-# Spiff Data Engineering Candidate Coding Exercises
+# Spiff Engineering Candidate Coding Exercises
 
 ## Purpose
 These coding exercises are meant to help Spiff gain insight into how you would tackle actual development work as part of the team. The exercise is relatively simple, but you are encouraged to treat them as if you were working on the Spiff codebase. **This means applying the same attention to code quality, tests, pull requests, commits, etc as you normally would.** 
@@ -7,11 +7,11 @@ These coding exercises are meant to help Spiff gain insight into how you would t
 
 ## Background
 
-Spiff's primary product offering is a SAS solution that helps companies automate their commissions. While the real word logic and systems needed to calculate commissions gets rather complicated, the core idea is simple: Some product is sold by a sales representative at a given price and the commission is some percentage rate multiplied by the price of the product sold. For example, selling a car for \$30,000 at a 5\% commission rate would earn a \$1,500 (\$30,000 * 0.05) commission.
+Spiff's primary product offering is a SAS solution that helps companies automate their commissions. While the real world logic and systems needed to calculate commissions gets rather complicated, the core idea is simple: Some product is sold by a sales representative at a given price and the commission is some percentage rate multiplied by the price of the product sold. For example, selling a car for \$30,000 at a 5\% commission rate would earn a \$1,500 (\$30,000 * 0.05) commission.
 
 ## Creating a Commission Calculator
 
-Create code (preferably Python, but any language you are most comfortable with works) for this small scale commission calculator based on a small set of sample data. In particular, your solution should be able take in a string of a sales representative's name along with a starting and ending date, then calculate the total commission for that sales rep during that period.
+Create code (preferably Ruby, Python, or Elixir but any language you are most comfortable with works) for this small scale commission calculator based on the provided sample data. In particular, your solution should be able take in a string of a sales representative's name along with a starting and ending date, then calculate the total commission for that sales rep during that period.
 
 Here is a sample of what the main function/method might look like:
 
@@ -94,9 +94,9 @@ calculate_commission(sales_rep_name="Poppy", start_date="2023-03-01", end_date="
 
 * Clean and readable code
 * Object-oriented programing that separates out smaller steps into easy to trouble shoot methods.
-* The functions/methods you create have unit tests (i.e. pytest)
+* The functions/methods you create have unit tests
 * Code should be self contained, meaning someone else should have every thing in the repo they would need in order to run the code (locally or deployed with a production service).
-  * Python package requirements are included
+  * Package requirements are included
   * Test are contained in the repo
   * README.md has basic summary of how the code works and steps needed to run
 
@@ -112,6 +112,6 @@ calculate_commission(sales_rep_name="Poppy", start_date="2023-03-01", end_date="
 1. Clone this repo **(don't fork)**
 2. Set the GitHub origin to the newly cloned repo under your account
 3. Commit your coding solution to your cloned repo
-4. Email cory.randolph@spiff.com and belen.caldas@spiff.com with a link to your repo
+4. Email the link to your GitHub repo to the recruiting team or hiring manager you have been in contact during the earlier phases of the interview
 
 Thank you for taking the time to complete this coding assessment! Don't stress too much about any one thing, we evaluate the exercises holistically.
